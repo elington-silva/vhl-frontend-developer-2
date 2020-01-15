@@ -1,0 +1,91 @@
+[
+    {
+        "id": 1,
+        "name": "Webinar",
+        "described": "Hosted via",
+        "icon": "fas fa-desktop",
+        "type": 1,
+        "parent": [],
+        "position": [
+            290,
+            40
+        ],
+        "view": false
+    },
+    {
+        "id": 2,
+        "name": "Mobile",
+        "described": "64% of Segment A",
+        "icon": "fas fa-mobile-alt",
+        "type": 1,
+        "parent": [
+            1
+        ],
+        "position": [
+            160,
+            270
+        ],
+        "view": false
+    },
+    {
+        "id": 3,
+        "name": "Web",
+        "described": "36% of Segment A",
+        "icon": "fas fa-desktop",
+        "type": 1,
+        "parent": [
+            1
+        ],
+        "position": [
+            400,
+            270
+        ],
+        "view": false
+    },
+    {
+        "id": 4,
+        "name": "Post Email (Mobile)",
+        "described": "Active View",
+        "icon": "far fa-clone fa-rotate-90 fa-flip-horizontal",
+        "type": 2,
+        "parent": [
+            2
+        ],
+        "position": [
+            240,
+            390
+        ],
+        "view": false
+    },
+    {
+        "id": 5,
+        "name": "Default View",
+        "described": "Active View",
+        "icon": "far fa-clone fa-rotate-90 fa-flip-horizontal",
+        "type": 2,
+        "parent": [
+            3
+        ],
+        "position": [
+            480,
+            390
+        ],
+        "view": false
+    },
+    {
+        "id": 6,
+        "name": "Email Campaign",
+        "described": "Synced form Outreach",
+        "icon": "far fa-envelope",
+        "type": 1,
+        "parent": [
+            2,
+            3
+        ],
+        "position": [
+            290,
+            690
+        ],
+        "view": false
+    }
+]
